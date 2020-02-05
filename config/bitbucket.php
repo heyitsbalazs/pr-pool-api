@@ -41,20 +41,9 @@ return [
     'connections' => [
 
         'main' => [
-            'token'   => 'your-token',
-            'method'  => 'oauth',
-            // 'backoff' => false,
-            // 'cache'   => false,
-            // 'url'     => null,
-        ],
-
-        'alternative' => [
-            'username' => 'foo',
-            'password' => 'bar',
-            'method'   => 'password',
-            // 'backoff'  => false,
-            // 'cache'    => false,
-            // 'url'      => null,
+            'username' => env('BITBUCKET_USERNAME'),
+            'password'   => env('BITBUCKET_PASSWORD'),
+            'method'  => env('BITBUCKET_AUTH_METHOD', 'password'),
         ],
 
     ],
