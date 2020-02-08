@@ -8,7 +8,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.2",
+        "php": "^7.4",
         "e3creative/json-response": "^2.0",
         "fideloper/proxy": "^4.0",
         "graham-campbell/bitbucket": "^5.3",
